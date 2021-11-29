@@ -15,6 +15,5 @@ export function giveMeSomeJob(who: any) {
             start = start + bytesToRead
         });
     });
-
 }
 
