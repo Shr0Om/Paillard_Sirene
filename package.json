@@ -1,0 +1,33 @@
+{
+  "name": "paillard_sirene",
+  "version": "1.0.0",
+  "description": "réalisation d'un indexeur mongodb à haute volumétrie pour le compte du gouvernement pour transitionner des données au format csv vers une base de données NoSQL",
+  "main": "src/start.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pause": "pm2 stop all",
+    "start": "pm2 resume all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shr0Om/Paillard_Sirene.git"
+  },
+  "author": "Tanguy Paillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shr0Om/Paillard_Sirene/issues"
+  },
+  "homepage": "https://github.com/Shr0Om/Paillard_Sirene#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "tslint": "^5.12.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "mongodb": "^4.2.0",
+    "pm2": "^5.1.2",
+    "ts-node": "^10.4.0"
+  }
+}
